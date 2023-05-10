@@ -14,13 +14,6 @@ typedef struct label {	//Struct for vertices labels
 	struct label *next;
 }LABEL;
 
-void scan_edges();
-void print_graph();
-void LBFS();
-void LBFS_PLUS();
-void LBFS_MUL();
-void is_umbrella_free();
-
 int vertices,edges,same_edges=0,*s_return,*s_return_plus,*s_return_plus_plus,*s_return_mul,call;
 
 void scan_edges(LIST *table[],int vertices,int edges)  {
