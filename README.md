@@ -11,10 +11,10 @@ You can see in the repository 3 files.
 - Graph_input.txt
 - interval_graph_recognition_algorithm.c
 
-The 1st one is just an image how our diagram looks like.
+The 1st is just an image of what a diagram that we want to check looks like.
 
 The 2nd file is the conversion of the diagram into a format readable by the program that we implemented.
 On the 1st line we have the number of the vertices. On the 2nd line we have the number of the edges. Finally on the other lines we have the connections between the vertices.
 So, in our example we have 6 vertices, 10 edges and 10 more rows in the txt file for the connections.
 
-The 3rd file is the code in C. The only think that you have to do is to compile this file (gcc) and run the executable. On the execution we pass all the arguments through our keyboard.
+The 3rd file is the code in C. The only thing that you have to do is to compile this file (gcc) and run the executable. On the execution we pass all the arguments through our keyboard.
