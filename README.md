@@ -15,4 +15,4 @@ The 2nd file is the conversion of the diagram into a format readable by the prog
 On the 1st line we have the number of the vertices. On the 2nd line we have the number of the edges. Finally on the other lines we have the connections between the vertices.
 So, in our example we have 6 vertices, 10 edges and 10 more rows in the txt file for the connections.
 
-The 3rd file is the code in C. The only think that you have to do is to compile file and run the executable. On the execution we pass all the arguments through our keyboard.
+The 3rd file is the code in C. The only think that you have to do is to compile this file (gcc) and run the executable. On the execution we pass all the arguments through our keyboard.
