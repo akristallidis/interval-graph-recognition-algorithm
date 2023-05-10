@@ -1,8 +1,10 @@
 # Interval graph recognition algorithm
 
-According to Derek G. Corneil, Stephan Olariu and Lorna Stewart an independent set of three vertices is called an asteroidal triple if between every two vertices in the triple there exists a path avoiding the neighbourhood of the third. A graph is asteroidal triple-free (AT-free, for short) if it contains no asteroidal triple. A classic result states that a graph is an interval graph if and only if it is chordal and AT-free.
+The implementation of this program is about the paper which was published from Derek G. Corneil, Stephan Olariu and Lorna Stewart with title [The Ultimate Interval Graphs Recognition Algorithm](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=fc49a11c5c752e83c29aa804fb75d7b9dbc3f88c)
 
-Our main contribution is to exhibit a very simple, lineartime, [recognition algorithm for interval graphs](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=fc49a11c5c752e83c29aa804fb75d7b9dbc3f88c) involving four sweeps of the we&known Lexicographic Breadth First Search. Unlike the vast majority of existing algorithms, we do not use maximal cliques in our algorithm - we rely, instead, on a less well-known characterization by a linear order of the vertices.
+An independent set of three vertices is called an asteroidal triple if between every two vertices in the triple there exists a path avoiding the neighbourhood of the third. A graph is asteroidal triple-free (AT-free, for short) if it contains no asteroidal triple. A classic result states that a graph is an interval graph if and only if it is chordal and AT-free.
+
+Our main contribution is to exhibit a very simple, lineartime, recognition algorithm for interval graphs involving four sweeps of the we&known Lexicographic Breadth First Search. Unlike the vast majority of existing algorithms, we do not use maximal cliques in our algorithm - we rely, instead, on a less well-known characterization by a linear order of the vertices.
 
 You can see in the repository 3 files.
 - Graph_diagram.png
